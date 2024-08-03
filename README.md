@@ -18,6 +18,18 @@ ________________________________________________________________________________
 
 #### we will get email like this
 ![image](https://github.com/user-attachments/assets/70a0b861-2b9b-42c2-bae9-b0c95281cb21)
+__________________________________________________________________________________________
 
+#### Postman CURL
 
-# !!Thank You!!
+curl --location --request POST 'http://localhost:9988/sendEmail' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "to": "test@gmail.com",
+    "subject": "Demo1",
+    "mesage": "Welcome",
+    "name": "Anjani"
+}'
+__________________________________________________________________________________________
+
+## !! Thank You !!
